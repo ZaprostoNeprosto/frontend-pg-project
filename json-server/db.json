@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "firstName": "Aleksandr",
+    "lastName": "Murashov",
+    "age": 29,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Saint Petersburg",
+    "username": "admin",
+    "avatar": "https://w7.pngwing.com/pngs/953/993/png-transparent-avatar-face-male-man-people-profile-user-avatar-user-icon.png"
+  }
 }
