@@ -3,7 +3,6 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { ProfileCard } from 'entities/Profile';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import avatar from 'shared/assets/tests/storybook.png';
 
 export default {
     title: 'entities/ProfileCard',
@@ -25,7 +24,7 @@ Primary.args = {
         firstName: 'asd',
         city: 'asf',
         currency: Currency.USD,
-        avatar,
+        avatar: 'https://img.myloview.ru/murals/profile-icon-vector-male-user-person-avatar-in-flat-color-glyph-pictogram-illustration-700-121123314.jpg',
     },
 };
 

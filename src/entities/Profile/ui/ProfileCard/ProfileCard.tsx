@@ -4,7 +4,6 @@ import { Text, TextAlign, TextTheme } from 'shared/ui/Text/Text';
 import { Input } from 'shared/ui/Input/Input';
 import { Loader } from 'shared/ui/Loader/Loader';
 import { Avatar } from 'shared/ui/Avatar/Avatar';
-import { Select } from 'shared/ui/Select/Select';
 import { Currency } from 'entities/Currency/model/types/currency';
 import { CurrencySelect } from 'entities/Currency';
 import { Country } from 'entities/Country/model/types/country';
@@ -67,7 +66,7 @@ export const ProfileCard = (props: ProfileCardProps) => {
         );
     }
 
-    let avatarValue: string;
+    // let avatarValue: string;
 
     // if (data?.avatar) {
     //     avatarValue = (data.avatar.length <= 15)
@@ -77,15 +76,7 @@ export const ProfileCard = (props: ProfileCardProps) => {
     //     avatarValue = '';
     // }
 
-    if (data?.avatar) {
-        if (__PROJECT__ !== 'storybook') {
-            avatarValue = '.../tests/storybook.png';
-        } else {
-            avatarValue = `...${data.avatar.slice(-20)}`;
-        }
-    } else {
-        avatarValue = '';
-    }
+    const avatarValue: string = 'link';
 
     const mods: Mods = {
         [cls.editing]: !readonly,

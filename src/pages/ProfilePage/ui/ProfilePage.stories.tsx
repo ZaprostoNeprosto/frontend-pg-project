@@ -29,6 +29,7 @@ Normal.decorators = [StoreDecorator({
             firstName: 'asd',
             city: 'asf',
             currency: Currency.USD,
+            avatar: 'https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Photo.png',
         },
     },
 })];
@@ -45,6 +46,7 @@ Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
             firstName: 'asd',
             city: 'asf',
             currency: Currency.USD,
+            avatar: 'https://img.myloview.ru/murals/profile-icon-vector-male-user-person-avatar-in-flat-color-glyph-pictogram-illustration-700-121123314.jpg',
         },
     },
 })];
