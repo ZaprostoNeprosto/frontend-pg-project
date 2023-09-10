@@ -78,7 +78,11 @@ export const ProfileCard = (props: ProfileCardProps) => {
     // }
 
     if (data?.avatar) {
-        avatarValue = `...${data.avatar.slice(-20)}`;
+        if (__PROJECT__ !== 'storybook') {
+            avatarValue = '.../tests/storybook.png';
+        } else {
+            avatarValue = `...${data.avatar.slice(-20)}`;
+        }
     } else {
         avatarValue = '';
     }
