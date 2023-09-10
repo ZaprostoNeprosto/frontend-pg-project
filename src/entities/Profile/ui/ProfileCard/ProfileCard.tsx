@@ -69,10 +69,16 @@ export const ProfileCard = (props: ProfileCardProps) => {
 
     let avatarValue: string;
 
+    // if (data?.avatar) {
+    //     avatarValue = (data.avatar.length <= 15)
+    //         ? data.avatar
+    //         : `${data.avatar.substring(0, 15)}...${data.avatar.slice(-15)}`;
+    // } else {
+    //     avatarValue = '';
+    // }
+
     if (data?.avatar) {
-        avatarValue = (data.avatar.length <= 15)
-            ? data.avatar
-            : `${data.avatar.substring(0, 15)}...${data.avatar.slice(-15)}`;
+        avatarValue = `...${data.avatar.slice(-20)}`;
     } else {
         avatarValue = '';
     }
