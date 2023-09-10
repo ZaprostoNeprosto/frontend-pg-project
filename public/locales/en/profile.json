@@ -1,0 +1,18 @@
+{
+  "Профиль": "Profile",
+  "Редактировать": "Edit",
+  "Ваше имя": "Your firstname",
+  "Ваша фамилия": "Your lastname",
+  "Попробуйте обновить страницу": "Try reload the page",
+  "Отменить": "Cancel",
+  "Сохранить": "Save",
+  "Ваш город": "Your city",
+  "Ваш возраст": "Your age",
+  "Имя пользователя": "Username",
+  "Ссылка на аватар": "Your avatar's link",
+  "Серверная ошибка при сохранении": "Server error while saving data",
+  "Некорректный регион": "Choose country",
+  "Данные не указаны": "The data is not provide",
+  "Имя и фамилия обязателбны": "The firstname and lastname must be provided ",
+  "Некорректный возраст": "Type correct age"
+}

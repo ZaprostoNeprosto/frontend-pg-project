@@ -18,5 +18,8 @@
   "Форма авторизации": "Authorization form",
   "Неверный логин или пароль": "Invalid username or password",
   "Выйти": "Log Out",
-  "Страница профиля": "Profile Page"
+  "Страница профиля": "Profile Page",
+  "Укажите валюту": "Choose currency",
+  "Укажите страну": "Choose country",
+  "Профиль": "Profile"
 }

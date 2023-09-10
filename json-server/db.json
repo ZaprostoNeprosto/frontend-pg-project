@@ -3,19 +3,19 @@
     {
       "id": "1",
       "title": "json-server",
-      "userId": 1
+      "userId": "1"
     },
     {
       "id": "2",
       "title": "json-server",
-      "userId": 2
+      "userId": "2"
     }
   ],
   "comments": [
     {
       "id": "1",
       "body": "some comment",
-      "postId": 1
+      "postId": "1"
     }
   ],
   "users": [
@@ -33,6 +33,6 @@
     "country": "Russia",
     "city": "Saint Petersburg",
     "username": "admin",
-    "avatar": "https://w7.pngwing.com/pngs/953/993/png-transparent-avatar-face-male-man-people-profile-user-avatar-user-icon.png"
+    "avatar": "https://cs14.pikabu.ru/post_img/big/2023/02/13/8/1676295972133291028.png"
   }
 }
