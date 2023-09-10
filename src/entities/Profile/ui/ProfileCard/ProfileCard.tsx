@@ -66,17 +66,15 @@ export const ProfileCard = (props: ProfileCardProps) => {
         );
     }
 
-    // let avatarValue: string;
+    let avatarValue: string;
 
-    // if (data?.avatar) {
-    //     avatarValue = (data.avatar.length <= 15)
-    //         ? data.avatar
-    //         : `${data.avatar.substring(0, 15)}...${data.avatar.slice(-15)}`;
-    // } else {
-    //     avatarValue = '';
-    // }
-
-    const avatarValue: string = 'link';
+    if (data?.avatar) {
+        avatarValue = (data.avatar.length <= 15)
+            ? data.avatar
+            : `${data.avatar.substring(0, 15)}...${data.avatar.slice(-15)}`;
+    } else {
+        avatarValue = '';
+    }
 
     const mods: Mods = {
         [cls.editing]: !readonly,
