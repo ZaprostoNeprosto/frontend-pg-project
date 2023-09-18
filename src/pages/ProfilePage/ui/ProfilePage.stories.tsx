@@ -6,6 +6,7 @@ import ProfilePage from 'pages/ProfilePage/ui/ProfilePage';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
+import { ProfileSchema } from 'entities/Profile';
 
 export default {
     title: 'pages/ProfilePage',
@@ -17,36 +18,29 @@ export default {
 
 const Template: ComponentStory<typeof ProfilePage> = (args) => <ProfilePage {...args} />;
 
+const profile: ProfileSchema = {
+    form: {
+        username: 'admin',
+        age: 29,
+        country: Country.Kazakhstan,
+        lastName: 'fsdfsdfdsf',
+        firstName: 'asd',
+        city: 'asf',
+        currency: Currency.USD,
+        avatar: 'https://img.myloview.ru/murals/profile-icon-vector-male-user-person-avatar-in-flat-color-glyph-pictogram-illustration-700-121123314.jpg',
+    },
+    isLoading: false,
+    readonly: false,
+};
+
 export const Normal = Template.bind({});
 Normal.args = {};
 Normal.decorators = [StoreDecorator({
-    profile: {
-        form: {
-            username: 'admin',
-            age: 29,
-            country: Country.Kazakhstan,
-            lastName: 'fsdfsdfdsf',
-            firstName: 'asd',
-            city: 'asf',
-            currency: Currency.USD,
-            avatar: 'https://img.myloview.ru/murals/profile-icon-vector-male-user-person-avatar-in-flat-color-glyph-pictogram-illustration-700-121123314.jpg',
-        },
-    },
+    profile,
 })];
 
 export const Dark = Template.bind({});
 Dark.args = {};
 Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
-    profile: {
-        form: {
-            username: 'admin',
-            age: 29,
-            country: Country.Kazakhstan,
-            lastName: 'fsdfsdfdsf',
-            firstName: 'asd',
-            city: 'asf',
-            currency: Currency.USD,
-            avatar: 'https://img.myloview.ru/murals/profile-icon-vector-male-user-person-avatar-in-flat-color-glyph-pictogram-illustration-700-121123314.jpg',
-        },
-    },
+    profile,
 })];
