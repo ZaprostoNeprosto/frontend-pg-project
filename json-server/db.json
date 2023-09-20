@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "КГ - АМ!",
+      "id": "J0YzsEj"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Сайт - говно!",
+      "id": "8diiMUV"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Эгегей!",
+      "id": "UxCJ8ad"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Няняян",
+      "id": "UsxwJEc"
     }
   ],
   "users": [
@@ -107,23 +133,39 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Photo.png"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://i.pinimg.com/originals/c9/3f/e2/c93fe2bfc8d33bdba25be694970e76c8.jpg"
     }
   ],
-  "profile": {
-    "firstName": "Aleksandr",
-    "lastName": "Murashov",
-    "age": 29,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Saint Petersburg",
-    "username": "admin",
-    "avatar": "https://www.pngmart.com/files/21/Account-Avatar-Profile-PNG-Photo.png"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "firstName": "Aleksandr",
+      "lastName": "Murashov",
+      "age": 29,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Saint Petersburg",
+      "username": "admin",
+      "avatar": "https://w7.pngwing.com/pngs/862/646/png-transparent-beard-hipster-male-man-avatars-xmas-giveaway-icon-thumbnail.png"
+    },
+    {
+      "id": "2",
+      "firstName": "Ksenia",
+      "lastName": "Vladimirova",
+      "age": 28,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "Kotya",
+      "avatar": "https://shop-cdn1-2.vigbo.tech/shops/19661/products/21612973/images/3-a5029c863128167fb8cacc6702247f10.png"
+    }
+  ]
 }
