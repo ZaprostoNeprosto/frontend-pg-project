@@ -1687,6 +1687,12 @@
       "userId": "2",
       "text": "Очень интересно. Хочу больше статей!",
       "id": "1xxsX3U"
+    },
+    {
+      "articleId": "18",
+      "userId": "1",
+      "text": "Hey!",
+      "id": "2O1jaLp"
     }
   ],
   "users": [
