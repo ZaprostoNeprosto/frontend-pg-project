@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'zn-plugin',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -33,7 +34,7 @@ module.exports = {
         ],
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
-        'no-unused-vars': 'warn',
+        'no-unused-vars': 'off',
         'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/jsx-props-no-spreading': 'warn',
@@ -46,7 +47,9 @@ module.exports = {
             'error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid', 'to', 'target'],
+                ignoreAttribute: [
+                    'as', 'role', 'data-testid', 'to', 'target', 'justify', 'align', 'direction', 'gap',
+                ],
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 125 }],
@@ -58,6 +61,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        'zn-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,
