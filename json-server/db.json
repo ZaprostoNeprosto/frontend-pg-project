@@ -1714,11 +1714,11 @@
   "profile": [
     {
       "id": "1",
-      "firstName": "Aleksandr",
-      "lastName": "Murashov",
+      "firstName": "Aleksandr1",
+      "lastName": "Murash0v",
       "age": 29,
-      "currency": "RUB",
-      "country": "Belarus",
+      "currency": "USD",
+      "country": "Russia",
       "city": "Saint Petersburg",
       "username": "admin",
       "avatar": "https://w7.pngwing.com/pngs/862/646/png-transparent-beard-hipster-male-man-avatars-xmas-giveaway-icon-thumbnail.png"
